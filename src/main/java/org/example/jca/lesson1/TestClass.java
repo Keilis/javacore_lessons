@@ -37,12 +37,12 @@ public class TestClass {
         int q = scanner.nextInt();
 //        Scanner scanner1 = new Scanner(System.in);
         int w = scanner.nextInt();
-        boolean c = q + w > 10 && q + w < 20;
+        return q + w > 10 && q + w < 20;
 //        if ((q + w) > 10 && (q + w) < 20) {
 //            System.out.println("true");
 //        } else {
 //            System.out.println("false");
-        return c;
+//        return c;
     }
 
     static String method(int t) {
