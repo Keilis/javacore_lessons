@@ -1,17 +1,17 @@
 package org.example.jca.lesson5;
 
 public class Employee {
-    String surname;
-    String name;
-    String middleName;
-    String position;
-    String email;
-    long mobileNumber;
-    int salary;
-    int age;
+    private String surname;
+    private String name;
+    private String middleName;
+    private String position;
+    private String email;
+    private long mobileNumber;
+    private int salary;
+    private int age;
 
-    Employee(String surname, String name, String middleName, String position, String email, long mobileNumber,
-             int salary, int age) {
+    public Employee(String surname, String name, String middleName, String position, String email, long mobileNumber,
+                    int salary, int age) {
         this.surname = surname;
         this.name = name;
         this.middleName = middleName;
@@ -23,7 +23,7 @@ public class Employee {
 
     }
 
-    void info() {
+    public void info() {
         System.out.println("ФИО сотрудника: " + surname + " " + name + " " + middleName);
         System.out.println();
         System.out.println("Должность: " + position);
