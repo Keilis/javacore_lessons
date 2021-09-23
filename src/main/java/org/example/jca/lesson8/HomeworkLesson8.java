@@ -21,7 +21,6 @@ public class HomeworkLesson8 {
                 new Treadmill("Четвертая дорожка", 5000),
                 new Wall("Третья стена", 4),
                 new Wall("Четвертая стена", 2)
-
         };
 
         for (Action action : players) {
